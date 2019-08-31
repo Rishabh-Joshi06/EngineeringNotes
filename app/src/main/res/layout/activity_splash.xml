@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Splash"
+    android:background="@drawable/sp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:shadowColor="#CAD6A1"
+        android:text="ENGINEERING NOTES"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#05CE967C"
+        android:textDirection="firstStrongLtr"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="150dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:shadowColor="#CAD6A1"
+        android:text="Learning Today . . . Leading Tomorrow"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#05CE967C"
+        android:textDirection="firstStrongLtr"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        android:layout_marginTop="20dp"/>
+
+
+
+</LinearLayout>

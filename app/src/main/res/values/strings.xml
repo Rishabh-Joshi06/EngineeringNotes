@@ -1,3 +1,37 @@
-<resources>
+<?xml version="1.0"?>
+
+ <resources>
+
     <string name="app_name">Engineering Notes</string>
+
+
+    -<string-array name="year">
+
+    <item>1</item>
+
+    <item>2</item>
+
+    <item>3</item>
+
+    <item>4</item>
+
+</string-array>
+
+
+    -<string-array name="branch">
+
+    <item>CS</item>
+
+    <item>IT</item>
+
+    <item>CIVIL</item>
+
+    <item>MECHANICAL</item>
+
+    <item>AU</item>
+
+    <item>EC</item>
+
+</string-array>
+
 </resources>

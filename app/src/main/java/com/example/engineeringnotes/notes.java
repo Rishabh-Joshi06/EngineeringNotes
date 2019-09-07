@@ -86,6 +86,7 @@ public class notes extends AppCompatActivity {
             startActivity(intent);
         }
 
+
     }
 
 }

@@ -55,24 +55,24 @@
         android:orientation="horizontal">
 
         <Button
-            android:layout_width="wrap_content"
+            android:id="@+id/notes"
+            android:layout_width="135dp"
             android:layout_height="wrap_content"
-            android:background="#9CE6FF03"
-            android:text="Download Notes"
-            android:layout_marginTop="50dp"
             android:layout_marginStart="45dp"
-            android:textStyle="bold"
-            android:id="@+id/notes"/>
+            android:layout_marginTop="50dp"
+            android:background="#1DE9B6"
+            android:text="Notes"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/setremainder"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="#9CE6FF03"
-            android:text="Library Remainder"
-            android:layout_marginTop="50dp"
             android:layout_marginStart="45dp"
-            android:textStyle="bold"/>
+            android:layout_marginTop="50dp"
+            android:background="#1DE9B6"
+            android:text="Library Remainder"
+            android:textStyle="bold" />
     </LinearLayout>
 
 

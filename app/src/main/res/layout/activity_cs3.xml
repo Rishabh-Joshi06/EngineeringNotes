@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".branch.IT3">
+    tools:context=".branch.CS3">
 
 
     <LinearLayout
@@ -26,4 +26,4 @@
 
 
 
-    </ScrollView>
+</ScrollView>

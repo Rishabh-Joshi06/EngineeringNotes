@@ -1,15 +1,17 @@
 package com.example.engineeringnotes;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.Spinner;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.engineeringnotes.branch.IT1;
+import com.example.engineeringnotes.branch.IT3;
 
 public class notes extends AppCompatActivity {
     private static final String TAG = "notes";
@@ -77,12 +79,12 @@ public class notes extends AppCompatActivity {
     {
        if (pos1==1 && pos2==0)
        {
-           Intent intent=new Intent(getApplicationContext(),IT1.class);
+           Intent intent=new Intent(getApplicationContext(), IT1.class);
            startActivity(intent);
        }
         if (pos1==1 && pos2==2)
         {
-            Intent intent=new Intent(getApplicationContext(),IT3.class);
+            Intent intent=new Intent(getApplicationContext(), IT3.class);
             startActivity(intent);
         }
 

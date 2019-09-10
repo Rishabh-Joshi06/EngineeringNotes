@@ -1,4 +1,4 @@
-package com.example.engineeringnotes;
+package com.example.engineeringnotes.branch;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -10,6 +10,8 @@ import android.widget.ListView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.engineeringnotes.R;
+import com.example.engineeringnotes.helper;
 import com.example.engineeringnotes.subject.ceal;
 import com.example.engineeringnotes.subject.cn;
 import com.example.engineeringnotes.subject.daaoa;

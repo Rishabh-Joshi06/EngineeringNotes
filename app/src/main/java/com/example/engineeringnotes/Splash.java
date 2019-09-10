@@ -1,12 +1,11 @@
 package com.example.engineeringnotes;
 
-import androidx.annotation.Nullable;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+
+import androidx.annotation.Nullable;
 
 public class Splash extends Activity {
 
@@ -21,7 +20,7 @@ public class Splash extends Activity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent i=new Intent(Splash.this,MainActivity.class);
+                Intent i=new Intent(Splash.this, MainActivity.class);
                 startActivity(i);
                 finish();
             }

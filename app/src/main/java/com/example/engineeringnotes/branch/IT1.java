@@ -1,8 +1,10 @@
-package com.example.engineeringnotes;
+package com.example.engineeringnotes.branch;
+
+import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.os.Bundle;
+import com.example.engineeringnotes.R;
 
 public class IT1 extends AppCompatActivity {
 

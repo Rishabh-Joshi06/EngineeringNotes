@@ -26,7 +26,7 @@ import com.example.engineeringnotes.subject.softcomp;
 public class IT3 extends AppCompatActivity {
     private static final String TAG = "IT3";
     private String listview_array[]={"COMPUTER NETWORKS","DESIGN AND ANALYSIS OF ALGORITHMS","SOFTWARE ENGINEERING","CYBER ETHICS AND LAW",
-            "ISM","NLP","SOFT COMPUTING","INFORMATION SECURITY","DATA SCIENCE","PYTHON"};
+            "Inforamation and Storage Management ","Natural Language Processing","SOFT COMPUTING","INFORMATION SECURITY","DATA SCIENCE","PYTHON"};
     ListView myList;
 
     protected void onCreate(Bundle savedInstanceState) {

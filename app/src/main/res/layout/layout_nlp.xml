@@ -6,20 +6,26 @@
     android:layout_height="match_parent"
     tools:context=".subject.nlp">
 
-    <WebView
-        android:id="@+id/webview"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
-
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
-        android:background="#E9F8F8"
-        android:layout_marginTop="5dp"
-        android:layout_marginEnd="5dp"
-        android:text="DOWNLOAD"></Button>
+        android:id="@+id/nlpdownload"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_alignRight="@id/nlpwebview"
+        android:layout_alignBottom="@id/nlpwebview"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="30dp"
+        android:background="#EF5350"
+        android:drawableBottom="@drawable/ic_arrow_downward_black_24dp"
+        android:paddingBottom="7dp"></Button>
+
+    <WebView
+        android:id="@+id/nlpwebview"
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+
+        android:layout_alignParentTop="true"
+        android:scrollIndicators="right" />
 
 </RelativeLayout>

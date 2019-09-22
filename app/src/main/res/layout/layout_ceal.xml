@@ -6,12 +6,27 @@
     android:layout_height="match_parent"
     tools:context=".subject.ceal">
 
+    <Button
+        android:id="@+id/download"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_alignRight="@id/webview"
+        android:layout_alignBottom="@id/webview"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="30dp"
+        android:background="#EF5350"
+        android:drawableBottom="@drawable/ic_arrow_downward_black_24dp"
+        android:paddingBottom="7dp"></Button>
+
     <WebView
         android:id="@+id/webview"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+
+        android:layout_alignParentTop="true"
+        android:scrollIndicators="right" />
 
 
 </RelativeLayout>

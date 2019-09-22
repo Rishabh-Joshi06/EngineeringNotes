@@ -20,7 +20,7 @@ public class py extends AppCompatActivity {
 
     String myPdfUrl="https://drive.google.com/file/d/1l4wHuSGJ9Ur2N5Z0F6ZI7GpesfHz-sJp/view?usp=sharing";
     WebView webView;
-    Button dn;
+    Button bn;
     @SuppressLint("SetJavaScriptEnabled")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,8 +30,8 @@ public class py extends AppCompatActivity {
         setContentView(R.layout.python);
         webView=findViewById(R.id.webview);
         displayWebView();
-        dn=findViewById(R.id.download);
-        dn.setOnClickListener(new View.OnClickListener() {
+        bn=findViewById(R.id.download);
+        bn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent download = new Intent(Intent.ACTION_VIEW);
